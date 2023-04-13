@@ -1,0 +1,8 @@
+#msg{
+    width: 90%;
+    height: 5rem;
+  margin: 1rem;
+  padding: 10px;
+  border-radius:5px ;
+  border: 0.5px solid black;
+}
