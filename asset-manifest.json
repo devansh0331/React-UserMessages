@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/devansh0331.github.io/React-UserMessages/static/css/main.1c04cac5.css",
-    "main.js": "/devansh0331.github.io/React-UserMessages/static/js/main.844ecd37.js",
+    "main.js": "/devansh0331.github.io/React-UserMessages/static/js/main.9507b6cc.js",
     "static/js/787.2b72815e.chunk.js": "/devansh0331.github.io/React-UserMessages/static/js/787.2b72815e.chunk.js",
     "index.html": "/devansh0331.github.io/React-UserMessages/index.html",
     "main.1c04cac5.css.map": "/devansh0331.github.io/React-UserMessages/static/css/main.1c04cac5.css.map",
-    "main.844ecd37.js.map": "/devansh0331.github.io/React-UserMessages/static/js/main.844ecd37.js.map",
+    "main.9507b6cc.js.map": "/devansh0331.github.io/React-UserMessages/static/js/main.9507b6cc.js.map",
     "787.2b72815e.chunk.js.map": "/devansh0331.github.io/React-UserMessages/static/js/787.2b72815e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c04cac5.css",
-    "static/js/main.844ecd37.js"
+    "static/js/main.9507b6cc.js"
   ]
 }
