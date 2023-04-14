@@ -9,13 +9,13 @@ import {BrowserRouter as  Router , Routes , Route} from "react-router-dom"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-usermessages">
     <div className="App">
     {/* <h1>Hello World</h1> */}
     {/* <Signup/> */}
     <Routes>
 
-      <Route exact path="/" element={<Signup/>}/>
+      <Route exact path="/React-UserMessages" element={<Signup/>}/>
       <Route path="login" element={<Login/>}/>
       <Route path="home" element={<Home/>}/>
 

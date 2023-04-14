@@ -27,9 +27,9 @@ function Home() {
       setDescription('')
       setContact('')
       setTimeout(()=>{
-        alert("Meassage sent successfully");
+        alert("Meassage sent successfully. If you want some other messages to send then you are being honoured...");
     },3000)
-    }).alert(error=>console.log(error.message));
+    }).catch(error=>console.log(error.message));
   
     
   }
