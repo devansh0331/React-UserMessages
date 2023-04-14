@@ -9,8 +9,8 @@ import {BrowserRouter as  Router , Routes , Route} from "react-router-dom"
 
 function App() {
   return (
-    <Router basename="/react-usermessages">
     <div className="App">
+    <Router basename="/react-usermessages">
     {/* <h1>Hello World</h1> */}
     {/* <Signup/> */}
     <Routes>
@@ -21,8 +21,8 @@ function App() {
 
       </Routes>
 
-    </div>
     </Router>
+    </div>
   );
 }
 
