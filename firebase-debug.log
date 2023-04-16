@@ -1,0 +1,48 @@
+[debug] [2023-04-16T13:14:19.682Z] ----------------------------------------------------------------------
+[debug] [2023-04-16T13:14:19.684Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\devan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-16T13:14:19.685Z] CLI Version:   11.27.0
+[debug] [2023-04-16T13:14:19.685Z] Platform:      win32
+[debug] [2023-04-16T13:14:19.686Z] Node Version:  v18.13.0
+[debug] [2023-04-16T13:14:19.687Z] Time:          Sun Apr 16 2023 18:44:19 GMT+0530 (India Standard Time)
+[debug] [2023-04-16T13:14:19.687Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-16T13:14:19.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-16T13:14:19.786Z] > authorizing via signed-in user (devanshshrivastava07@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\devan\OneDrive\Desktop\Web Development Projects\React\your-credentials-and-msgs
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-16T13:14:31.247Z] Using project from CLI flag: users-credentials-c8bbc
+[debug] [2023-04-16T13:14:31.248Z] > refreshing access token with scopes: []
+[debug] [2023-04-16T13:14:31.250Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-16T13:14:31.250Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-16T13:14:31.579Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-04-16T13:14:31.579Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-16T13:14:31.580Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/users-credentials-c8bbc [none]
+[debug] [2023-04-16T13:14:32.209Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/users-credentials-c8bbc 401
+[debug] [2023-04-16T13:14:32.210Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/users-credentials-c8bbc {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-04-16T13:14:32.210Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-04-16T13:14:32.776Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\devan\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\devan\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project users-credentials-c8bbc. Please make sure the project exists and your account has permission to access it.
