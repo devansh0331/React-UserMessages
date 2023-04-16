@@ -44,7 +44,7 @@ function Signup() {
 
   return (
     <div className="container">
-        <span>Sign-Up</span>
+        <span>Sign-Up User</span>
         <form className="formContainer" onSubmit={handleSignUp}>
             <label for="">Name*</label>
             <input onChange={e=>setFullname(e.target.value)} value={fullName} type="text"/>
